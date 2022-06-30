@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50E8F4F075B8ECDD0188FF71 /* Pods_VishalCATAAS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA8DFE087362860A2222BD0 /* Pods_VishalCATAAS.framework */; };
 		691C76F9286E0B8900CBD777 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76F8286E0B8900CBD777 /* DependencyContainer.swift */; };
 		691C76FB286E0BDF00CBD777 /* EntityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76FA286E0BDF00CBD777 /* EntityProtocol.swift */; };
 		691C76FD286E0C6900CBD777 /* CatNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76FC286E0C6900CBD777 /* CatNetworkingService.swift */; };
@@ -17,6 +18,8 @@
 		69FD6DE2286DFCD0007ABACB /* VishalCATAASTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DE1286DFCD0007ABACB /* VishalCATAASTests.swift */; };
 		69FD6DEC286DFCD0007ABACB /* VishalCATAASUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DEB286DFCD0007ABACB /* VishalCATAASUITests.swift */; };
 		69FD6DEE286DFCD0007ABACB /* VishalCATAASUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DED286DFCD0007ABACB /* VishalCATAASUITestsLaunchTests.swift */; };
+		ADEAB23E929F6A33A77B3BAA /* Pods_VishalCATAAS_VishalCATAASUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E467B48589E20DC6AB0FC5 /* Pods_VishalCATAAS_VishalCATAASUITests.framework */; };
+		B398737D06807FE23EC7119B /* Pods_VishalCATAASTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69167C687D49CE6A8D13A45E /* Pods_VishalCATAASTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25E467B48589E20DC6AB0FC5 /* Pods_VishalCATAAS_VishalCATAASUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalCATAAS_VishalCATAASUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39211712D423EA43A29E36E2 /* Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig"; path = "Target Support Files/Pods-VishalCATAAS-VishalCATAASUITests/Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA8DFE087362860A2222BD0 /* Pods_VishalCATAAS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalCATAAS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69167C687D49CE6A8D13A45E /* Pods_VishalCATAASTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalCATAASTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		691C76F8286E0B8900CBD777 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		691C76FA286E0BDF00CBD777 /* EntityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityProtocol.swift; sourceTree = "<group>"; };
 		691C76FC286E0C6900CBD777 /* CatNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNetworkingService.swift; sourceTree = "<group>"; };
@@ -50,6 +57,11 @@
 		69FD6DE7286DFCD0007ABACB /* VishalCATAASUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VishalCATAASUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD6DEB286DFCD0007ABACB /* VishalCATAASUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishalCATAASUITests.swift; sourceTree = "<group>"; };
 		69FD6DED286DFCD0007ABACB /* VishalCATAASUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishalCATAASUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AFCADCB311BB4D526E7D646 /* Pods-VishalCATAASTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalCATAASTests.release.xcconfig"; path = "Target Support Files/Pods-VishalCATAASTests/Pods-VishalCATAASTests.release.xcconfig"; sourceTree = "<group>"; };
+		A259430BC356547E4F8118E8 /* Pods-VishalCATAASTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalCATAASTests.debug.xcconfig"; path = "Target Support Files/Pods-VishalCATAASTests/Pods-VishalCATAASTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB94747148C7CDB9B4052049 /* Pods-VishalCATAAS-VishalCATAASUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalCATAAS-VishalCATAASUITests.release.xcconfig"; path = "Target Support Files/Pods-VishalCATAAS-VishalCATAASUITests/Pods-VishalCATAAS-VishalCATAASUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAB8D01192549DCA9C2463A2 /* Pods-VishalCATAAS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalCATAAS.debug.xcconfig"; path = "Target Support Files/Pods-VishalCATAAS/Pods-VishalCATAAS.debug.xcconfig"; sourceTree = "<group>"; };
+		E698B4F21CC032ED97FA2EF1 /* Pods-VishalCATAAS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalCATAAS.release.xcconfig"; path = "Target Support Files/Pods-VishalCATAAS/Pods-VishalCATAAS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E8F4F075B8ECDD0188FF71 /* Pods_VishalCATAAS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B398737D06807FE23EC7119B /* Pods_VishalCATAASTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +85,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEAB23E929F6A33A77B3BAA /* Pods_VishalCATAAS_VishalCATAASUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		647B6C35ADC5E333C9C04BD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA8DFE087362860A2222BD0 /* Pods_VishalCATAAS.framework */,
+				25E467B48589E20DC6AB0FC5 /* Pods_VishalCATAAS_VishalCATAASUITests.framework */,
+				69167C687D49CE6A8D13A45E /* Pods_VishalCATAASTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		691C76F7286E0B7800CBD777 /* DependencyContainer */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +119,8 @@
 				69FD6DE0286DFCD0007ABACB /* VishalCATAASTests */,
 				69FD6DEA286DFCD0007ABACB /* VishalCATAASUITests */,
 				69FD6DCE286DFCCF007ABACB /* Products */,
+				C6B435D8188BBE2ED30B2653 /* Pods */,
+				647B6C35ADC5E333C9C04BD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +171,20 @@
 			path = VishalCATAASUITests;
 			sourceTree = "<group>";
 		};
+		C6B435D8188BBE2ED30B2653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAB8D01192549DCA9C2463A2 /* Pods-VishalCATAAS.debug.xcconfig */,
+				E698B4F21CC032ED97FA2EF1 /* Pods-VishalCATAAS.release.xcconfig */,
+				39211712D423EA43A29E36E2 /* Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig */,
+				AB94747148C7CDB9B4052049 /* Pods-VishalCATAAS-VishalCATAASUITests.release.xcconfig */,
+				A259430BC356547E4F8118E8 /* Pods-VishalCATAASTests.debug.xcconfig */,
+				7AFCADCB311BB4D526E7D646 /* Pods-VishalCATAASTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69FD6DF1286DFCD0007ABACB /* Build configuration list for PBXNativeTarget "VishalCATAAS" */;
 			buildPhases = (
+				FD5C54732A1FFDEF2FFD113F /* [CP] Check Pods Manifest.lock */,
 				69FD6DC9286DFCCF007ABACB /* Sources */,
 				69FD6DCA286DFCCF007ABACB /* Frameworks */,
 				69FD6DCB286DFCCF007ABACB /* Resources */,
+				50C598215C6D8521A56DFC8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69FD6DF4286DFCD0007ABACB /* Build configuration list for PBXNativeTarget "VishalCATAASTests" */;
 			buildPhases = (
+				E0C73F8C58C394105A14982E /* [CP] Check Pods Manifest.lock */,
 				69FD6DD9286DFCD0007ABACB /* Sources */,
 				69FD6DDA286DFCD0007ABACB /* Frameworks */,
 				69FD6DDB286DFCD0007ABACB /* Resources */,
@@ -186,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69FD6DF7286DFCD0007ABACB /* Build configuration list for PBXNativeTarget "VishalCATAASUITests" */;
 			buildPhases = (
+				A9DD506BDF85A29F2BC717B7 /* [CP] Check Pods Manifest.lock */,
 				69FD6DE3286DFCD0007ABACB /* Sources */,
 				69FD6DE4286DFCD0007ABACB /* Frameworks */,
 				69FD6DE5286DFCD0007ABACB /* Resources */,
+				D75D4CBCD0E9E28CF6B13C73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +314,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50C598215C6D8521A56DFC8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VishalCATAAS/Pods-VishalCATAAS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VishalCATAAS/Pods-VishalCATAAS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VishalCATAAS/Pods-VishalCATAAS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9DD506BDF85A29F2BC717B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VishalCATAAS-VishalCATAASUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D75D4CBCD0E9E28CF6B13C73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VishalCATAAS-VishalCATAASUITests/Pods-VishalCATAAS-VishalCATAASUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VishalCATAAS-VishalCATAASUITests/Pods-VishalCATAAS-VishalCATAASUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VishalCATAAS-VishalCATAASUITests/Pods-VishalCATAAS-VishalCATAASUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C73F8C58C394105A14982E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VishalCATAASTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD5C54732A1FFDEF2FFD113F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VishalCATAAS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		69FD6DC9286DFCCF007ABACB /* Sources */ = {
@@ -431,6 +580,7 @@
 		};
 		69FD6DF2286DFCD0007ABACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB8D01192549DCA9C2463A2 /* Pods-VishalCATAAS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		69FD6DF3286DFCD0007ABACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E698B4F21CC032ED97FA2EF1 /* Pods-VishalCATAAS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,6 +640,7 @@
 		};
 		69FD6DF5286DFCD0007ABACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A259430BC356547E4F8118E8 /* Pods-VishalCATAASTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +661,7 @@
 		};
 		69FD6DF6286DFCD0007ABACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFCADCB311BB4D526E7D646 /* Pods-VishalCATAASTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +682,7 @@
 		};
 		69FD6DF8286DFCD0007ABACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39211712D423EA43A29E36E2 /* Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +701,7 @@
 		};
 		69FD6DF9286DFCD0007ABACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB94747148C7CDB9B4052049 /* Pods-VishalCATAAS-VishalCATAASUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
