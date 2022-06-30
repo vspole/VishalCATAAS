@@ -22,14 +22,6 @@ extension ContentView {
 
         init(container: DependencyContainer) {
             self.container = container
-            container.catNetworkingService.getRandomCat { (response) in
-                switch response.result {
-                case .success(let value):
-                    print("Sucess: ", value)
-                case .failure(let error):
-                    print("Error: ", error)
-                }
-            }
         }
     }
 }

@@ -13,6 +13,7 @@
 		691C76FD286E0C6900CBD777 /* CatNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76FC286E0C6900CBD777 /* CatNetworkingService.swift */; };
 		691C76FF286E0FA800CBD777 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76FE286E0FA800CBD777 /* CatModel.swift */; };
 		691C7701286E13AB00CBD777 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C7700286E13AB00CBD777 /* Endpoint.swift */; };
+		691C7706286E153D00CBD777 /* CatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C7705286E153D00CBD777 /* CatsModel.swift */; };
 		69FD6DD1286DFCCF007ABACB /* VishalCATAASApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DD0286DFCCF007ABACB /* VishalCATAASApp.swift */; };
 		69FD6DD3286DFCCF007ABACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DD2286DFCCF007ABACB /* ContentView.swift */; };
 		69FD6DD5286DFCD0007ABACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD6DD4286DFCD0007ABACB /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		691C76FC286E0C6900CBD777 /* CatNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNetworkingService.swift; sourceTree = "<group>"; };
 		691C76FE286E0FA800CBD777 /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
 		691C7700286E13AB00CBD777 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		691C7705286E153D00CBD777 /* CatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsModel.swift; sourceTree = "<group>"; };
 		69FD6DCD286DFCCF007ABACB /* VishalCATAAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VishalCATAAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD6DD0286DFCCF007ABACB /* VishalCATAASApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishalCATAASApp.swift; sourceTree = "<group>"; };
 		69FD6DD2286DFCCF007ABACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				691C76FE286E0FA800CBD777 /* CatModel.swift */,
+				691C7705286E153D00CBD777 /* CatsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				691C76F9286E0B8900CBD777 /* DependencyContainer.swift in Sources */,
 				691C76FB286E0BDF00CBD777 /* EntityProtocol.swift in Sources */,
 				69FD6DD1286DFCCF007ABACB /* VishalCATAASApp.swift in Sources */,
+				691C7706286E153D00CBD777 /* CatsModel.swift in Sources */,
 				691C76FD286E0C6900CBD777 /* CatNetworkingService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
