@@ -14,6 +14,16 @@ struct ContentView: View {
     }
 }
 
+extension ContentView {
+    class ViewModel: ObservableObject {
+        private let container: DependencyContainer
+
+        init(container: DependencyContainer) {
+            self.container = container
+        }
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
