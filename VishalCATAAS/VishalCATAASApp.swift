@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct VishalCATAASApp: App {
+    var container = DependencyContainer.create()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: .init(container: container))
         }
     }
 }

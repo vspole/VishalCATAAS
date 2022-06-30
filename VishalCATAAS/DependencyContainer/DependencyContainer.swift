@@ -25,7 +25,14 @@ extension DependencyContainer {
         let container = DependencyContainer()
         container.components = [
             //Add Dependency Components Here
+            CatNetworkingService(entity: container)
         ]
         return container
     }
+}
+
+// MARK: - Convenience property wrappers
+
+extension DependencyContainer {
+    var catNetworkingService: CatNetworkingServiceProtocol { getComponent() }
 }
