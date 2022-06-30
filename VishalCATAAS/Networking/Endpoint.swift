@@ -12,6 +12,7 @@ enum Endpoint {
     private static let api = "\(base)/api"
     
     static let cat = "\(base)/cat"
+    static let catID = "\(cat)/%@" // %@ = cat ID
     static let catJson = "\(cat)?json=true"
 
     static let cats = "\(api)/cats"
