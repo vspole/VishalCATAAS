@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CatModel: Decodable {
+struct CatModel: Decodable, Identifiable, Hashable {
     let id: String
     let date: String
     let tags: [String]
@@ -16,5 +16,9 @@ struct CatModel: Decodable {
         case id
         case date = "created_at"
         case tags
+    }
+    
+    var catURL: URL? {
+        URL(string: String(format: Endpoint.catID,id))
     }
 }

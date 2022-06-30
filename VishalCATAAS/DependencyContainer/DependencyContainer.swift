@@ -25,7 +25,8 @@ extension DependencyContainer {
         let container = DependencyContainer()
         container.components = [
             //Add Dependency Components Here
-            CatNetworkingService(entity: container)
+            CatNetworkingService(entity: container),
+            ImageCacheManager(entity: container)
         ]
         return container
     }
@@ -35,4 +36,5 @@ extension DependencyContainer {
 
 extension DependencyContainer {
     var catNetworkingService: CatNetworkingServiceProtocol { getComponent() }
+    var imageCache: ImageCacheManager { getComponent() }
 }
