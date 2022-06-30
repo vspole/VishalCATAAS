@@ -22,17 +22,31 @@ extension SlideShowView {
         GeometryReader { proxy in
             TabView {
                 ForEach(viewModel.catsCached) { cat in
-                    Image(uiImage: viewModel.fetchImageFromCache(cat: cat))
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .overlay(Color.black.opacity(0.4))
-                        .tag(cat.id)
+                    ZStack(alignment: .bottomTrailing) {
+                        Image(uiImage: viewModel.fetchImageFromCache(cat: cat))
+                            .resizable()
+                            .aspectRatio(contentMode: .fill)
+                            .overlay(Color.black.opacity(0.4))
+                            .tag(cat.id)
+                            .frame(width: proxy.size.width, height: proxy.size.height/3)
+                        
+                        Button(action: {
+                            viewModel.showShareSheet(cat: cat)
+                        }, label: {
+                            Image(systemName: "square.and.arrow.up")
+                                    .foregroundColor(.blue)
+                        })
+                        .padding(.trailing, SIZE_PADDING_LARGE)
+                        .padding(.bottom, SIZE_PADDING_LARGE)
+                    }
+
                 }
             }
             .tabViewStyle(PageTabViewStyle())
             .clipShape(RoundedRectangle(cornerRadius: 5))
             .padding(.horizontal, MARGIN_SCREEN_LEFT_RIGHT)
             .frame(width: proxy.size.width, height: proxy.size.height/3)
+            .background(ActivityViewController(items: $viewModel.shareSheetItems))
         }
     }
 }
@@ -43,11 +57,15 @@ extension SlideShowView {
         @Published var cats: [CatModel] = []
         @Published var catsCached: [CatModel] = []
         @Published var showImageText: Bool = true
+        @Published var shareSheetItems: [Any] = []
         
         init(container: DependencyContainer) {
             self.container = container
             fetchAllCats()
-            
+        }
+        
+        func showShareSheet(cat: CatModel) {
+            shareSheetItems.append(fetchImageFromCache(cat: cat))
         }
         
         func fetchAllCats() {

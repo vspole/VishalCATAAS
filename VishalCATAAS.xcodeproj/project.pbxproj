@@ -17,6 +17,7 @@
 		691C770A286E1EC500CBD777 /* ScaledFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C7709286E1EC500CBD777 /* ScaledFont.swift */; };
 		691C770D286E2C4A00CBD777 /* SlideShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C770C286E2C4A00CBD777 /* SlideShowView.swift */; };
 		691C770F286E367900CBD777 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C770E286E367900CBD777 /* ImageCacheManager.swift */; };
+		691C7711286E640300CBD777 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C7710286E640300CBD777 /* ActivityViewController.swift */; };
 		69FD6DD1286DFCCF007ABACB /* VishalCATAASApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DD0286DFCCF007ABACB /* VishalCATAASApp.swift */; };
 		69FD6DD3286DFCCF007ABACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DD2286DFCCF007ABACB /* ContentView.swift */; };
 		69FD6DD5286DFCD0007ABACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD6DD4286DFCD0007ABACB /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		691C7709286E1EC500CBD777 /* ScaledFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledFont.swift; sourceTree = "<group>"; };
 		691C770C286E2C4A00CBD777 /* SlideShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowView.swift; sourceTree = "<group>"; };
 		691C770E286E367900CBD777 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		691C7710286E640300CBD777 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		69FD6DCD286DFCCF007ABACB /* VishalCATAAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VishalCATAAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD6DD0286DFCCF007ABACB /* VishalCATAASApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishalCATAASApp.swift; sourceTree = "<group>"; };
 		69FD6DD2286DFCCF007ABACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				69FD6DD2286DFCCF007ABACB /* ContentView.swift */,
 				691C770C286E2C4A00CBD777 /* SlideShowView.swift */,
+				691C7710286E640300CBD777 /* ActivityViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -479,6 +482,7 @@
 				691C770A286E1EC500CBD777 /* ScaledFont.swift in Sources */,
 				691C7708286E1DD100CBD777 /* Size.swift in Sources */,
 				691C76FB286E0BDF00CBD777 /* EntityProtocol.swift in Sources */,
+				691C7711286E640300CBD777 /* ActivityViewController.swift in Sources */,
 				691C770D286E2C4A00CBD777 /* SlideShowView.swift in Sources */,
 				69FD6DD1286DFCCF007ABACB /* VishalCATAASApp.swift in Sources */,
 				691C770F286E367900CBD777 /* ImageCacheManager.swift in Sources */,
