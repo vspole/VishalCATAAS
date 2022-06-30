@@ -14,7 +14,7 @@ protocol CatNetworkingServiceProtocol: AnyObject {
 
 class CatNetworkingService: DependencyContainer.Component, CatNetworkingServiceProtocol {
     func getRandomCat(completion: @escaping (DataResponse<CatModel, AFError>) -> Void) {
-        let request = AF.request("https://cataas.com/cat?json=true")
+        let request = AF.request(Endpoint.catJson)
         
         request.responseDecodable(of: CatModel.self) { (response) in
             completion(response)
