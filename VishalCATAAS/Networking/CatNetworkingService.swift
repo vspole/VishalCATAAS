@@ -14,6 +14,8 @@ protocol CatNetworkingServiceProtocol: AnyObject {
     func fetchCatsWithTag(tag: String, completion: @escaping (DataResponse<[CatModel], AFError>) -> Void)
     func fetchCatsWithLimit(limit: String, completion: @escaping (DataResponse<[CatModel], AFError>) -> Void)
     func fetchCatImageWithURL(id: String, url: URL, completion: @escaping (DataResponse<Data?, AFError>) -> Void)
+    func fetchCaptionCatImage(id: String, caption: String, completion: @escaping (DataResponse<Data?, AFError>) -> Void)
+    func fetchTags(completion: @escaping (DataResponse<[String], AFError>) -> Void) 
 }
 
 class CatNetworkingService: DependencyContainer.Component, CatNetworkingServiceProtocol {
@@ -51,8 +53,25 @@ class CatNetworkingService: DependencyContainer.Component, CatNetworkingServiceP
     func fetchCatImageWithURL(id: String, url: URL, completion: @escaping (DataResponse<Data?, AFError>) -> Void) {
         let request = AF.request(url)
         
-        request.response() { [weak self] (response) in
+        request.response() { (response) in
 
+            completion(response)
+        }
+    }
+    
+    func fetchCaptionCatImage(id: String, caption: String, completion: @escaping (DataResponse<Data?, AFError>) -> Void ) {
+        
+        let request = AF.request(String(format: Endpoint.caption, id, caption))
+        
+        request.response() { (response) in
+            completion(response)
+        }
+    }
+    
+    func fetchTags(completion: @escaping (DataResponse<[String], AFError>) -> Void) {
+        let request = AF.request(Endpoint.tags)
+        
+        request.responseDecodable(of: [String].self) { (response) in
             completion(response)
         }
     }

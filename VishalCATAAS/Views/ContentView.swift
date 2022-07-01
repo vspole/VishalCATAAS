@@ -55,7 +55,6 @@ extension ContentView {
     }
     
     private var slideshowButton: some View {
-        
         NavigationLink(destination: SlideShowView(viewModel: .init(container: viewModel.container))) {
             Text("Cat SlideShow")
                 .scaledFont(type: .openSansSemiBold, size: 25, color: Color.blue)
@@ -63,12 +62,10 @@ extension ContentView {
     }
     
     private var filterButton: some View {
-        Button(action: {
-            //Add button action here
-        }, label: {
+        NavigationLink(destination: FiltersView(viewModel: .init(container: viewModel.container))) {
             Text("Filter Cats")
                 .scaledFont(type: .openSansSemiBold, size: 25, color: Color.blue)
-        })
+        }
     }
 }
 

@@ -53,7 +53,8 @@ extension SlideShowView {
 extension SlideShowView {
     class ViewModel: ObservableObject {
         private let container: DependencyContainer
-
+        
+        @Published var tag: String?
         @Published var cats: [CatModel] = []
         @Published var catsCached: [CatModel] = []
         @Published var showImageText: Bool = true
@@ -64,12 +65,33 @@ extension SlideShowView {
             fetchAllCats()
         }
         
+        init(container: DependencyContainer, tag: String) {
+            self.container = container
+            self.tag = tag
+            fetchCatsWithTags()
+        }
+        
         func showShareSheet(cat: CatModel) {
             shareSheetItems.append(fetchImageFromCache(cat: cat))
         }
         
         func fetchAllCats() {
             container.catNetworkingService.fetchCatsWithLimit(limit: "30") { [weak self] (response) in
+                switch response.result {
+                case .success(let value):
+                    self?.cats = value
+                    self?.loadAllImages()
+                    //print("Here: ", value)
+                case .failure(let error):
+                    //Error handling here
+                    print("Error: ", error)
+                }
+            }
+        }
+        
+        func fetchCatsWithTags() {
+            guard let tag = tag else { return }
+            container.catNetworkingService.fetchCatsWithTag(tag: tag) { [weak self] (response) in
                 switch response.result {
                 case .success(let value):
                     self?.cats = value
