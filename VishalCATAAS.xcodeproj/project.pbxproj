@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		50E8F4F075B8ECDD0188FF71 /* Pods_VishalCATAAS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA8DFE087362860A2222BD0 /* Pods_VishalCATAAS.framework */; };
 		691017D1286F664F00AF32B2 /* MockCatNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691017D0286F664F00AF32B2 /* MockCatNetworkingService.swift */; };
+		691017D3286F7A4800AF32B2 /* SlideShowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691017D2286F7A4800AF32B2 /* SlideShowViewModelTests.swift */; };
 		691C76F9286E0B8900CBD777 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76F8286E0B8900CBD777 /* DependencyContainer.swift */; };
 		691C76FB286E0BDF00CBD777 /* EntityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76FA286E0BDF00CBD777 /* EntityProtocol.swift */; };
 		691C76FD286E0C6900CBD777 /* CatNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76FC286E0C6900CBD777 /* CatNetworkingService.swift */; };
@@ -24,7 +25,6 @@
 		69FD6DD3286DFCCF007ABACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DD2286DFCCF007ABACB /* ContentView.swift */; };
 		69FD6DD5286DFCD0007ABACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD6DD4286DFCD0007ABACB /* Assets.xcassets */; };
 		69FD6DD8286DFCD0007ABACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FD6DD7286DFCD0007ABACB /* Preview Assets.xcassets */; };
-		69FD6DE2286DFCD0007ABACB /* VishalCATAASTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DE1286DFCD0007ABACB /* VishalCATAASTests.swift */; };
 		69FD6DEC286DFCD0007ABACB /* VishalCATAASUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DEB286DFCD0007ABACB /* VishalCATAASUITests.swift */; };
 		69FD6DEE286DFCD0007ABACB /* VishalCATAASUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD6DED286DFCD0007ABACB /* VishalCATAASUITestsLaunchTests.swift */; };
 		ADEAB23E929F6A33A77B3BAA /* Pods_VishalCATAAS_VishalCATAASUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E467B48589E20DC6AB0FC5 /* Pods_VishalCATAAS_VishalCATAASUITests.framework */; };
@@ -53,6 +53,7 @@
 		39211712D423EA43A29E36E2 /* Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig"; path = "Target Support Files/Pods-VishalCATAAS-VishalCATAASUITests/Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5AA8DFE087362860A2222BD0 /* Pods_VishalCATAAS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalCATAAS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		691017D0286F664F00AF32B2 /* MockCatNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCatNetworkingService.swift; sourceTree = "<group>"; };
+		691017D2286F7A4800AF32B2 /* SlideShowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideShowViewModelTests.swift; sourceTree = "<group>"; };
 		69167C687D49CE6A8D13A45E /* Pods_VishalCATAASTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalCATAASTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		691C76F8286E0B8900CBD777 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		691C76FA286E0BDF00CBD777 /* EntityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityProtocol.swift; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		69FD6DD4286DFCD0007ABACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FD6DD7286DFCD0007ABACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69FD6DDD286DFCD0007ABACB /* VishalCATAASTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VishalCATAASTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		69FD6DE1286DFCD0007ABACB /* VishalCATAASTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishalCATAASTests.swift; sourceTree = "<group>"; };
 		69FD6DE7286DFCD0007ABACB /* VishalCATAASUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VishalCATAASUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FD6DEB286DFCD0007ABACB /* VishalCATAASUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishalCATAASUITests.swift; sourceTree = "<group>"; };
 		69FD6DED286DFCD0007ABACB /* VishalCATAASUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VishalCATAASUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 		69FD6DE0286DFCD0007ABACB /* VishalCATAASTests */ = {
 			isa = PBXGroup;
 			children = (
-				69FD6DE1286DFCD0007ABACB /* VishalCATAASTests.swift */,
+				691017D2286F7A4800AF32B2 /* SlideShowViewModelTests.swift */,
 			);
 			path = VishalCATAASTests;
 			sourceTree = "<group>";
@@ -510,7 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69FD6DE2286DFCD0007ABACB /* VishalCATAASTests.swift in Sources */,
+				691017D3286F7A4800AF32B2 /* SlideShowViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

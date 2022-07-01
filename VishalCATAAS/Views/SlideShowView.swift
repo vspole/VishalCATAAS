@@ -11,8 +11,13 @@ struct SlideShowView: View {
     @StateObject var viewModel: ViewModel
     
     var body: some View {
-        if !viewModel.catsCached.isEmpty {
-            slideshow
+        VStack {
+            if !viewModel.catsCached.isEmpty {
+                slideshow
+            }
+        }
+        .onAppear {
+            viewModel.viewDidAppear(self)
         }
     }
 }
@@ -60,14 +65,21 @@ extension SlideShowView {
         @Published var showImageText: Bool = true
         @Published var shareSheetItems: [Any] = []
         
+        
         init(container: DependencyContainer) {
             self.container = container
-            fetchAllCats()
         }
         
         init(container: DependencyContainer, tag: String) {
             self.container = container
             self.tag = tag
+        }
+        
+        func viewDidAppear(_ view: SlideShowView) {
+            guard tag != nil else {
+                fetchAllCats()
+                return
+            }
             fetchCatsWithTags()
         }
         
