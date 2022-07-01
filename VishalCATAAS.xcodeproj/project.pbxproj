@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		50E8F4F075B8ECDD0188FF71 /* Pods_VishalCATAAS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA8DFE087362860A2222BD0 /* Pods_VishalCATAAS.framework */; };
+		691017D1286F664F00AF32B2 /* MockCatNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691017D0286F664F00AF32B2 /* MockCatNetworkingService.swift */; };
 		691C76F9286E0B8900CBD777 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76F8286E0B8900CBD777 /* DependencyContainer.swift */; };
 		691C76FB286E0BDF00CBD777 /* EntityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76FA286E0BDF00CBD777 /* EntityProtocol.swift */; };
 		691C76FD286E0C6900CBD777 /* CatNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691C76FC286E0C6900CBD777 /* CatNetworkingService.swift */; };
@@ -51,6 +52,7 @@
 		25E467B48589E20DC6AB0FC5 /* Pods_VishalCATAAS_VishalCATAASUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalCATAAS_VishalCATAASUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39211712D423EA43A29E36E2 /* Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig"; path = "Target Support Files/Pods-VishalCATAAS-VishalCATAASUITests/Pods-VishalCATAAS-VishalCATAASUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5AA8DFE087362860A2222BD0 /* Pods_VishalCATAAS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalCATAAS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691017D0286F664F00AF32B2 /* MockCatNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCatNetworkingService.swift; sourceTree = "<group>"; };
 		69167C687D49CE6A8D13A45E /* Pods_VishalCATAASTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VishalCATAASTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		691C76F8286E0B8900CBD777 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
 		691C76FA286E0BDF00CBD777 /* EntityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityProtocol.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		691017CF286F663500AF32B2 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				691017D0286F664F00AF32B2 /* MockCatNetworkingService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		691C76F7286E0B7800CBD777 /* DependencyContainer */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		691C7702286E149A00CBD777 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				691017CF286F663500AF32B2 /* Mocks */,
 				691C76FC286E0C6900CBD777 /* CatNetworkingService.swift */,
 				691C7700286E13AB00CBD777 /* Endpoint.swift */,
 			);
@@ -482,6 +493,7 @@
 				691C7701286E13AB00CBD777 /* Endpoint.swift in Sources */,
 				691C76FF286E0FA800CBD777 /* CatModel.swift in Sources */,
 				69FD6DD3286DFCCF007ABACB /* ContentView.swift in Sources */,
+				691017D1286F664F00AF32B2 /* MockCatNetworkingService.swift in Sources */,
 				691C76F9286E0B8900CBD777 /* DependencyContainer.swift in Sources */,
 				691C770A286E1EC500CBD777 /* ScaledFont.swift in Sources */,
 				691C7708286E1DD100CBD777 /* Size.swift in Sources */,
