@@ -2,7 +2,7 @@
 Demo App using cataas.com
 
 This app will hopefully show my years of experience in iOS app development. What this app will not show is my creative mind. While I am skilled at programming beautiful UIs, I am not skilled at designing them. 
-So this app is the definition of "Beauty is what lies inside". 
+So this app is the definition of "Beauty is what lies inside". Some mocks and Unit testing was added, not a whole lot is tested due to time constraints. When I have more time I will add MockCacheManger and tests for caching images as well as tests for UI and other view models. 
 Hope you enjoy the picture of the cats and the thought and origniziation I put into coding this app. 
 
 # Installing the App
